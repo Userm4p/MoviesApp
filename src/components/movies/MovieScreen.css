@@ -1,0 +1,79 @@
+body{
+    color: white;
+    background-color: rgb(14, 0, 63);
+}
+
+.movie-reviews-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black; 
+    padding: 15px;
+}
+.movie-details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(14, 0, 63);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    box-shadow: 0px 8px 12px rgba(112, 112, 112, 0.767);
+}
+.movie-details-title{
+    margin: 0px;
+}
+.movie-details-description{
+    margin-top: 5px;
+    text-align: start;
+}
+.movie-homepage{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+.movie-details-img{   
+    box-shadow: 6px 8px 12px rgba(10, 10, 10, 0.767);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 20px;
+}
+.movie{
+  display: flex;
+}
+.movie-details-info{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: top;
+    margin-left: 15px;
+}
+.review-container{
+    width: 100%;
+    margin: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(214, 211, 211);
+}
+
+.review-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: orange;
+}
+.review-profil-picture{
+    width: 100px;
+    height: 100px;
+    border-right: 1px solid rgb(0, 0, 0) ;
+    background-color: white;
+    background-color: black;
+}
+.review-profil-name{
+    font-size: medium;
+    margin: 5px;
+}

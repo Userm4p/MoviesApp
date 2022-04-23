@@ -1,0 +1,3 @@
+# Login Screen 
+
+Este componente se encarga de renderizar los campos para hacer el login de usuario, recopilando la informacion proporcionada y enviandola a la API para que retorne el token validado, luego envia el token validado a la API para que retorne un Sesion_id y define este como el contexto de la aplicacion para el resto de los componentes, de esta forma se podra validar mas adelante que el usuario este autenticado siempre
